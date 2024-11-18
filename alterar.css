@@ -1,0 +1,128 @@
+/* Reseta algumas propriedades padrões do navegador */
+:root {
+    --cor-azul: #1a2730;
+    --cor-cinza: #424149;
+    --cor-preto: #000;
+    --cor-branco: #fff;
+    --cor-azulCinza: #46586c;
+    --cor-azulMar: #1c2e42;
+    --cor-azulClaro: #afcee2;
+  }
+  
+  /* Estilização geral */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-azul);
+    color: var(--cor-azulClaro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Contêiner principal */
+  .container {
+    background-color: var(--cor-azulClaro);
+    width: 90%;
+    max-width: 800px;  /* Aumentando o tamanho da div */
+    padding: 30px;  /* Aumentando o padding para dar mais espaço interno */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--cor-preto);
+    text-align: center;
+  }
+  
+  /* Título principal */
+  h1 {
+    font-size: 32px;  /* Aumentando o tamanho do título */
+    color: var(--cor-preto);
+    margin-bottom: 10px;
+    text-align: center;  /* Centralizando o título */
+  }
+  
+  /* Texto de boas-vindas */
+  p {
+    font-size: 16px;
+    color: var(--cor-preto);
+    margin-bottom: 20px;
+  }
+  
+  /* Estilização do formulário */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background-color: var(--cor-azulClaro);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    text-align: left;
+    font-size: 14px;
+    color: var(--cor-preto);
+  }
+  
+  form input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid var(--cor-preto);
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  form input:focus {
+    border-color: var(--cor-azulCinza);
+    box-shadow: 0 0 5px var(--cor-azulCinza);
+  }
+  
+  form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--cor-azulCinza);
+    color: var(--cor-branco);
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  form button:hover {
+    background-color: var(--cor-azulMar);
+  }
+  
+  /* Link de voltar */
+  a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: var(--cor-azulCinza);
+    color: var(--cor-branco);
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    text-align: center;
+  }
+  
+  a:hover {
+    background-color: var(--cor-azulMar);
+  }
+  
+  /* Estilização de título da seção */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--cor-preto);
+  }
+  
+  /* Mensagem de erro ou sucesso */
+  p.vazio {
+    text-align: center;
+    font-size: 16px;
+    color: var(--cor-azul);
+  }
+  

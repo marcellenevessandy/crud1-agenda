@@ -1,0 +1,109 @@
+/* Reseta algumas propriedades padrões do navegador */
+:root {
+  --cor-azul: #1a2730;
+  --cor-cinza: #424149;
+  --cor-preto: #000;
+  --cor-branco: #fff;
+  --cor-azulMar: #1c2e42;
+  --cor-azulCinza: #46586c;
+  --cor-azulClaro: #afcee2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--cor-azul);
+  color: var(--cor-azulClaro);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* Estilização do container principal */
+.conteiner {
+  background-color: var(--cor-azulClaro);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Título do formulário */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--cor-preto);
+}
+
+/* Estilos do formulário */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: var(--cor-preto);
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid var(--cor-azulCinza);
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: var(--cor-cinza);
+  outline: none;
+}
+
+/* Estilização do botão de submit */
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--cor-azulCinza);
+  color: var(--cor-branco);
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--cor-azulMar);
+}
+
+/* Link de cadastro */
+a {
+  text-align: center;
+  font-size: 14px;
+  color: var(--cor-azulCinza);
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Centralização do botão e espaçamento */
+.center {
+  text-align: center;
+  margin-top: 15px;
+}
