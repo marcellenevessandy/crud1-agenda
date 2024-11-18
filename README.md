@@ -22,5 +22,5 @@ O **Projeto Agenda** tem como objetivo criar um sistema onde é possível cadast
 - **Quinto**: Entre no navegador e pesquise 'localhost/crud1-agenda/'.
 
 ## Desenvolvedor
-Nome do Aluno: Marcelle Neves Sandy
-Contato: marcellesandy3@gmail.com
+- Nome do Aluno: Marcelle Neves Sandy
+- Contato: marcellesandy3@gmail.com
