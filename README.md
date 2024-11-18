@@ -1,7 +1,7 @@
 # Projeto Agenda de Contatos
 
 ## Sobre o Projeto
-O **Projeto Agenda** tem como objetivo criar um sistema onde é possível cadastrar, visualizar, editar e excluir contatos de usuários. A interface do sistema é simples e prática, permitindo gerenciar uma lista de contatos de maneira eficiente. O sistema é desenvolvido em **PHP** com **MySQL** para o armazenamento dos dados.
+O **Projeto Agenda** tem como objetivo criar um sistema onde é possível cadastrar, visualizar, editar e excluir contatos de usuários. A interface do sistema é simples e prática, permitindo gerenciar uma lista de contatos de maneira eficiente. O sistema é desenvolvido em **PHP**.
 
 ## Funcionalidades
 - **Cadastrar Contatos**: Permite adicionar novos contatos com nome e telefone.
